@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+    color: #F4F4F4;
+    background-color: #050505;
+    font-family: 'Onest', sans-serif;
+    
+    
+}
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+}
+
+footer {
+    height: 200px;
+    
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 25px;
+    font-size: 16px;
+    
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+.intro-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+.intro-container h1 {
+    font-size: 32px;
+}
+
+.intro-container p {
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+.span-location {
+    color: #e6f8e0;
+}
+
+.span-titulo {
+    
+    color: #fdf6b2;
+}
+
+.span-powerp {
+    color: #dbeafe;
+}
+
+.span-descripcion {
+    opacity: 0.9;
+}
+
+.intro-container ul {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos se acomoden en varias líneas si es necesario */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+/* Estilos generales para los íconos y enlaces */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.intro-container li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid gray;
+    border-radius: 25px;
+    width: auto; /* El ancho se ajustará automáticamente según el contenido */
+    padding: 10px 15px; /* Ajusté el padding para que el contenido no quede tan apretado */
+    background-color: black;
+     
+    transition: transform 0.2s ease-in-out; /* Para el efecto de hover */
+}
+
+.intro-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+.intro-container svg {
+    width: 24px; /* Tamaño inicial de los íconos */
+    height: auto;
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.intro-container li:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del <li> completo al hacer hover */
+}
+
+.intro-container a span {
+    font-size: 14px;
+}
+
+.exp-section {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.skill-btn {
+    width: auto;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 1px;
+}
+
+.skill-btn p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.proy-section {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
