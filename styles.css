@@ -156,7 +156,13 @@ ul {
     padding: 50px;
 }
 
+.logo path {
+    transition: fill 0.2s ease-in-out; /* Transición suave */
+  }
 
+  .logo:hover path {
+    fill: #73C900; /* Verde VivaAerobus */
+  }
 
 
 
