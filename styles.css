@@ -56,6 +56,7 @@ li, a {
     
     margin: 0 auto;
     padding: 50px 5px;
+    overflow: hidden;
 }
 
 .intro-container h1 {
@@ -100,20 +101,23 @@ ul {
 
 .intro-container li {
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     border: 0.5px solid gray;
     border-radius: 25px;
     width: auto; /* El ancho se ajustará automáticamente según el contenido */
+    transition: transform 0.3s ease;
     padding: 5px 15px; /* Ajusté el padding para que el contenido no quede tan apretado */
-    background-color: black;
+    
      
-    transition: transform 0.2s ease-in-out; /* Para el efecto de hover */
+     /* Para el efecto de hover */
 }
 
 .intro-container a {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: #F4F4F4;
 }
@@ -125,7 +129,9 @@ ul {
 }
 
 .intro-container li:hover {
+    
     transform: scale(1.1); /* Aumenta el tamaño del <li> completo al hacer hover */
+    
 }
 
 .intro-container a span {
