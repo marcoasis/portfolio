@@ -53,9 +53,9 @@ li, a {
 }
 
 .intro-container {
-    width: 50%;
+    
     margin: 0 auto;
-    padding: 50px 10px;
+    padding: 50px 5px;
 }
 
 .intro-container h1 {
@@ -105,7 +105,7 @@ ul {
     border: 0.5px solid gray;
     border-radius: 25px;
     width: auto; /* El ancho se ajustará automáticamente según el contenido */
-    padding: 10px 15px; /* Ajusté el padding para que el contenido no quede tan apretado */
+    padding: 5px 15px; /* Ajusté el padding para que el contenido no quede tan apretado */
     background-color: black;
      
     transition: transform 0.2s ease-in-out; /* Para el efecto de hover */
@@ -133,7 +133,7 @@ ul {
 }
 
 .exp-section {
-    width: 50%;
+    
     margin: 0 auto;
     padding: 50px;
 }
